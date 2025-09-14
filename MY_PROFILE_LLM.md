@@ -41,7 +41,37 @@ Durante mais de 20 anos, fui cofundador e líder de suporte da Inuv Telecom, um 
   - Disparo de SMS em massa.  
   - Mobilização de técnicos com kit de contingência (modem 4G, notebooks, acesso remoto).  
 
+
+## Resumo Inuv
+
+In parallel, at Inuv Telecom (2002–2023), I co-founded and led a regional ISP that served 2,000+ clients, including ~50 corporate and government accounts. I directly managed a team of 9 employees across support, field engineering, and administration. I was responsible for Tier 2/3 escalations, SLA enforcement, crisis management, and implementing automation such as a WhatsApp bot integrated with our CRM that reduced manual tickets by 50%. That experience gave me hands-on practice building repeatable service processes, managing escalations, and maintaining customer confidence under pressure.
+
+
+
+
+# Cases
+
+### Team of 9: “The team was multifunctional: 3 Tier 1 support agents, 4 field technicians, 1 admin, and 1 operational support. I personally handled Tier 2/3 escalations and client communication for high-value accounts.”
+
+### Crisis example: “A severe storm once knocked down our main transmission tower. Thousands of customers, including government and corporate accounts, were affected. I immediately mobilized the entire team, hired a local welder overnight, and coordinated field technicians to rebuild the tower within 24 hours. We restored service in 5 hours, while the city itself was without water and power for two days. Throughout the incident, I maintained transparent communication with customers — SMS blasts, Tier 1 scripted updates, and direct calls to corporate clients. That transparency preserved confidence, and we received positive feedback despite the crisis.”
+
+
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Mara Systems (Germany) – Partner & Technical Sales  
 *Jun 2012 – Fev 2016 | Remote – Brasil*  
@@ -78,7 +108,179 @@ Atuei como parceiro da **Mara Systems (Alemanha)** no Brasil, responsável por v
   - Upsell constante conforme provedores aumentavam sua base.  
   - Licenciamento principal de 5 anos + suporte anual obrigatório (renovação recorrente).  
 
+
+
+## Resumo Mara Systems:
+
+
+At Mara Systems (Germany), from 2012 to 2016, I acted as their partner for Brazil, driving professional services for over 420 ISPs nationwide. I managed the full customer lifecycle — from onboarding and technical deployment of appliances, through configuration, routing, and failover design, to post-sales support and upgrades. I regularly delivered live demos, webinars, and workshops at major industry events, which not only accelerated adoption but also created scalable playbooks for future rollouts. While I didn’t manage a large internal headcount, I coordinated with Mara’s engineering team in Germany and led the technical onboarding of multiple ISP teams simultaneously, essentially functioning as their professional services arm in Latin America.
+
+
+
+# Cases 
+
+### Largest team size coordinated: “I didn’t directly manage employees, but I was coordinating simultaneously with dozens of ISP technical teams across Brazil. In large events or rollouts, I would manage 20–30 engineers from different ISPs at once, guiding them through product setup, configuration, and proof-of-concept phases.”
+
+### Major escalation example: “One of our largest ISP prospects (12,000+ customers) was unhappy during testing because when they purposely shut down the caching server, traffic stalled until the route was manually removed. I worked directly with their engineers, reviewed logs, and discovered they had missed a recommended failover configuration. We implemented a dual-check mechanism: verifying both port 80 traffic and ICMP response from the appliance. If ICMP failed, the route would automatically disable and traffic would bypass the cache. Once applied, the client saw seamless failover and bandwidth savings as expected. They were very satisfied, closed the deal, and even became a key reference for us in the market.”
+
+
+
+### Complex crisis leading
+
+# “At Mara Systems, we once faced a sudden wave of renewal cancellations. Multiple clients claimed our caching solution delivered lower bandwidth savings than advertised and even alleged we were just running a Squid proxy. I personally called key clients to investigate and found it was a competitor spreading false information through ISP associations.
+
+# To restore confidence, I prepared video case studies showing real savings directly from ISP routers, with customer authorization. I joined provider mailing lists and, when the topic came up, I shared transparent data, offered live webinars, and demonstrated ROI and scalability. Importantly, I never attacked competitors — I focused on facts and performance.
+
+# The result was a complete turnaround: within weeks, trust was restored, I delivered four packed webinars, and that same month we tripled license sales through a joint purchase by one of the largest ISP associations in Brazil.”
+
+### Resume complex crisis
+
+# Specific false claims: Competitor said our savings were only ~20–25% (vs 40–50% real), and accused us of being just a Squid proxy with poor scalability.
+
+# How I proved it was misinformation: I compared appliance savings (45–50%) against ISP router throughput, removing any doubt. I also showed live cases with >5k users and multi-site deployments.
+
+# Proof points beyond videos: I published clear ROI analyses (3–4 months payback), explained how savings % is measured, highlighted our unique SSD-based caching for small objects, and ran Mailchimp/Salesforce campaigns plus live webinars to demonstrate the product in real time.
+
+# Impact & outcome: Around 20 clients raised concerns; I personally engaged them, retained 15, and restored trust. Within weeks, confidence rebounded and sales grew.
+
+
+
+
+### hunter (prospecção e onboarding de novos parceiros)
+
+# During my time as a Partner with Mara Systems from 2012 to 2016, my role was very much focused on sourcing and onboarding new partners, particularly Internet Service Providers across Brazil. In the beginning, we were closing around 4–5 new customers per month. But once I discovered the importance of leveraging ISP associations, I started to actively participate in their trade shows and events — Abrint, Abramulti, RedeTelesul, and others. This gave me direct access to decision-makers, and also helped us build credibility within the ISP community.
+
+# I implemented more advanced sales techniques, such as joining purchasing groups through these associations. Although this required more effort in coordination, it significantly accelerated adoption. By applying ROI-based sales models, running dedicated webinars for providers, and introducing a structured follow-up workflow in Salesforce integrated with Mailchimp, we built a very professional pipeline.
+
+# The results were substantial: we scaled from 4–5 new sales per month to 20–30 consistently, and in some peak months we even reached 50 sales. That meant not just selling licenses, but also fully onboarding partners — configuring appliances, providing training, and ensuring they saw value quickly.
+
+# Another key breakthrough was simplifying payments. Initially, buying directly from Germany was a barrier for Brazilian ISPs. I built a partnership with Banco do Brasil’s currency exchange services, which allowed customers to pay locally in Brazilian reais. That removed friction and gave us a major competitive advantage.
+
+# In the end, these initiatives turned Mara Systems into a trusted name among regional ISPs in Brazil. We didn’t just sell technology — we built trust and long-term relationships with the community, which fueled continuous renewals and upsells in the years that followed.
+
+
+
+# processo, estrutura, e foco em sucesso do parceiro.
+
+When a new ISP signed with us, we had a very structured onboarding process to make sure they were fully operational quickly and with confidence.
+
+1. Pre-installation check – I first validated the customer’s server environment against the technical requirements they had provided, to ensure compatibility before deployment.
+
+2. Training materials – We sent documentation and training guides upfront, so their team could become familiar with the product and features.
+
+3. Installation scheduling – We scheduled the go-live date, aligning their technical staff with our engineers for a coordinated rollout.
+
+4. Initial technical hours – Every new customer received 4 hours of free technical support during implementation. This covered initial configuration, integration with routers (Juniper, Cisco, Mikrotik, and others), and setting up failover paths so that traffic would automatically reroute in case of service interruptions.
+
+5. Initial testing – We performed controlled tests with a small subset of their customer base to verify performance and stability.
+
+6. Go-live – Once validated, the solution was rolled out across the ISP’s entire network.
+
+7. Follow-up – One week after deployment, I conducted a check-in to ensure the system was running smoothly, address any questions, and reinforce best practices.
+
+This structured process helped partners see value very quickly, minimized deployment risks, and built long-term trust. It also made our solution much easier to recommend across the ISP community, because clients knew the onboarding would be smooth.
+
+
+# Important Case conversion
+
+One concrete example happened at an industry trade show. Instead of staying only at our booth, I would walk the floor and listen to conversations among ISP executives. On one occasion, I overheard a group discussing caching solutions — which was exactly our product area. I noticed one of the people leading the discussion seemed to be a key decision-maker, so I waited until their conversation ended, then introduced myself.
+
+I asked open questions and simply listened. He explained that they had already invested heavily in caching servers from another vendor, but the deployment was slow, support was minimal, and the actual bandwidth savings were only 15–20%. The general feeling was disappointment and distrust in caching technology.
+
+At that point, I shared our ROI methodology: showing real-world averages of 40–50% bandwidth savings, the server requirements, and the payback period of just a few months. To overcome his skepticism, I offered a try-and-buy — he could test the solution in production, and only if the results matched expectations, he would purchase the license.
+
+He accepted. The prospect turned out to be Mr. Manoel Santana, leader of the Abramulti ISP association. During onboarding, I personally oversaw installation, provided documentation, and ensured his technical team was fully supported. Within weeks, his ISP achieved 45% total bandwidth savings, and ROI was achieved in about 2.5 months.
+
+Because of this success, he became an advocate and introduced me to the association. That led to a group purchase of 60 licenses in a single deal, with a discounted package for all members. This not only drove immediate revenue but also established Mara Systems as the trusted caching provider within that community.
+
+
+
+
+1. Quantos novos parceiros você trouxe no total na Mara Systems?
+
+Over my entire time at Mara Systems, I personally sourced and onboarded over 400 new ISP partners across Brazil, selling more than 500 licenses in total.
+
+2. Quanto tempo, em média, levava do primeiro contato até o parceiro estar ativo e gerando receita?
+
+In terms of timeline, at the beginning it usually took 3–4 weeks from first contact to a partner being fully live and generating savings. As we improved the onboarding process — with dedicated webinars, group purchase agreements, detailed implementation manuals, and structured follow-ups — that time dropped to about 2 weeks on average.
+
+In some cases, especially when the ISP already had compatible hardware in place, we could have them fully operational in less than one week. Our documentation was very self-explanatory, covering installation, licensing, router-specific configurations (Juniper, Cisco, Huawei, Mikrotik), and even failover rules. Many customers could activate independently, but we always encouraged them to use the initial 4 hours of guided technical support to ensure everything was optimized from day one.
+
+This acceleration of the sales-to-revenue cycle was a key factor in scaling adoption so quickly across the ISP community.
+
+
+# diversidade de canais de prospecção e se você tinha estratégia para priorizar regiões/segmentos. Sua resposta já traz isso, só precisa ficar organizada e em inglês, com ênfase em dados e critérios de ROI.
+
+
+In addition to trade shows and ISP associations, I used several proactive methods to build my pipeline of prospects:
+
+Mailing lists & online research – I collected public contact information for ISPs, including city, coverage area, phone numbers, and technical decision-makers. I built a database segmented by state and region, which allowed me to run targeted outreach campaigns.
+
+Targeting by ROI potential – We discovered that ROI was lower for ISPs located near large metropolitan areas, where bandwidth was cheaper. In those cases, payback could take 5+ months. But for ISPs in regional or rural areas, bandwidth costs were much higher, so ROI was achieved in just 2–3 months. We prioritized those high-ROI areas, which made our value proposition much stronger.
+
+Multi-touch outreach – After segmenting prospects, I ran campaigns starting with email (folders, ROI calculators, and case studies), followed by phone calls. If there was no immediate response, I reinforced with additional emails or even direct messages. This sequence ensured we stayed on their radar without being intrusive.
+
+By combining in-person networking at associations with data-driven regional targeting and structured follow-up, I consistently kept a strong funnel of qualified ISPs and converted hundreds of them into long-term partners.
+
+
+
+# Challenges when sourcing new partners and how overcome from 4-5 sells to 20-30 ?
+
+Boa, Rafael. Essa pergunta é clássica de “challenge & solution”. Eles querem avaliar:
+
+1. Se você enfrentou obstáculos reais (não uma resposta genérica).
+
+2. Como você reagiu (estratégia, inovação).
+
+3. O impacto obtido (crescimento, escala).
+
+Pelos seus relatos, três desafios principais se destacam:
+
+1. Ceticismo do mercado com caching – muitos ISPs já tinham testado soluções ruins que entregavam só 15–20% savings.
+
+- Como resolveu: usou ROI calculado, demos técnicas, try-and-buy para reduzir risco, cases de sucesso (ex: 45% savings em 2,5 meses ROI).
+
+2. Ciclo de vendas longo e pouco previsível no início – demorava 3–4 semanas para converter.
+
+- Como resolveu: criou webinars dedicados, manuais claros, grupos de compra via associações, Salesforce+Mailchimp para follow-up estruturado → reduziu ciclo para 2 semanas (às vezes 1).
+
+3. Dificuldade de pagamento internacional – clientes brasileiros tinham barreiras com pagamento para Alemanha.
+
+- Como resolveu: fechou parceria com Banco do Brasil/casa de câmbio → permitiu pagamento local em reais, removendo atrito e aumentando taxa de fechamento.
+
+# in english
+
+One of the biggest challenges was market skepticism. Many ISPs had already tried caching solutions that promised a lot but delivered only 15–20% bandwidth savings. The perception was that caching didn’t really work. To overcome this, I introduced a consultative ROI approach, showing realistic payback calculations and offering try-and-buy programs. Once early clients achieved 40–50% savings, word spread quickly and credibility improved.
+
+Another challenge was the long and unpredictable sales cycle in the beginning — it could take 3–4 weeks or more to move from first contact to signed deal. I solved this by creating structured webinars, detailed onboarding manuals, and group purchase programs through associations. I also implemented Salesforce with Mailchimp for systematic follow-up. These changes cut the sales cycle to about 2 weeks on average, sometimes even less than 1 week when hardware was ready.
+
+Finally, there was a payment barrier. Many ISPs in Brazil hesitated to purchase because paying a German vendor involved complex international transfers. I partnered with Banco do Brasil’s exchange service, enabling local payments in reais. That small operational change had a big impact — it removed friction and accelerated adoption.
+
+By addressing these challenges directly, I was able to scale from just 4–5 new partners per month in the early days to 20–30 consistently, with peak months hitting 50.
+
+
+
+
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## ChatZAP Delivery (Founder & Developer)  
 *2023 – Presente | Remote – Brasil*  
@@ -135,6 +337,117 @@ Após vender a Inuv Telecom, desenvolvi o **ChatZAP Delivery**, um SaaS inovador
 - Aplicação prática de **Prompt Engineering e RAG** para otimização de custos de IA.  
 - Criação de um sistema que competia em pé de igualdade com players nacionais — chegando a ter recursos equivalentes ou superiores ao **Anota.AI** (posteriormente adquirido pelo iFood).  
 - Diferencial único: suporte a **pedidos por áudio**, recurso inexistente em concorrentes diretos.  
+
+## Resumo ChatzZAP
+
+Most recently, with ChatZAP Delivery (2023–present), I built a SaaS platform from scratch, automating restaurant orders and payments with AI and WhatsApp integration. Beyond the product build, I also led standardized onboarding flows for 20+ restaurants, processing 200+ orders/day at peak. This was an AI-first delivery engine where clients could self-configure menus and start operating immediately — very much aligned with running professional services as a scalable product rather than a consulting effort.
+
+# Cases
+
+### Typical onboarding blockers: “The main blockers were incomplete or inconsistent menus from restaurants, lack of structured pricing rules, and occasional difficulties with WhatsApp API or payment gateway setup. I created standardized checklists and fallback scripts to resolve these quickly.”
+
+### Designing repeatable onboarding: “Many restaurants found menu entry too exhausting — typing dozens of items slowed onboarding. To solve this, I built a workflow where they simply uploaded a photo or PDF of their menu. Using GPT-4, the system parsed item names, categories, and prices, and pre-populated the catalog. With one click, the restaurant could review and confirm. Combined with default templates and error checks, this reduced onboarding from days to just a few hours and cut support tickets by 70%. It turned onboarding into a productized, reusable process.”
+
+
+# Here’s a tight, interview-ready answer you can give:
+
+# Software projects - how manage ?
+
+“Sure. My most relevant PM experience is building ChatZAP Delivery, an AI-powered WhatsApp ordering and customer-service platform for restaurants. I led the project end-to-end: I started with discovery, going on-site to map the real workflow and pain points—slow replies on WhatsApp, wrong orders, and delivery mistakes. From there, I defined the MVP scope, built the backlog and roadmap, and ran two-week sprints coordinating dev, QA, and integrations (payments, notifications).
+
+Because I’m AI-first, I used GPT-4 for the conversational flow and classification, Whisper for voice notes, and a Pinecone-based RAG layer to ground answers on each restaurant’s menu and cut token usage by ~40–60%. On delivery, I owned status reporting (weekly RAG and exec summaries), risk & change management (e.g., WhatsApp API policy changes, payment outages), and escalations with clear runbooks and SLAs.
+
+Results: first-response times dropped from minutes to seconds, onboarding a new restaurant became a 5-minute self-serve flow, and we reduced order/delivery mistakes by ~95%. My role was part product, part project: keeping scope, timeline, and quality aligned while using AI to automate status reports, summarize customer feedback, and predict where we’d slip so we could correct early.”
+
+-
+
+If they probe, have these quick bullets ready:
+
+Scope & team: multi-tenant SaaS; I coordinated FE/BE devs, QA, and ops; stakeholders were restaurant owners and our support team.
+
+Governance: roadmap + sprint plan, RAG criteria tied to schedule/cost/risk; simple EVM-style tracking (planned vs. delivered points and effort).
+
+Top risks: API limits, token costs (mitigated with RAG), payment downtime (circuit breakers + retry queues).
+
+AI in PM work: ChatGPT templates to draft release notes/status reports, auto-summaries of support tickets, and risk digests from logs.
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+# General
+
+
+### método de lidar com um cliente crítico em crise: como você investiga, organiza times, comunica e mantém a confiança. O segredo é estruturar no formato triagem → investigação → stakeholders → comunicação → resolução.
+
+
+### “In this scenario, I would first triage the issue by confirming the scope and impact: which data sets are failing to sync, when the problem started, and whether it affects all or specific integrations. I would immediately acknowledge the escalation to the client, confirm that it’s our top priority, and set expectations for frequent status updates.
+
+### Next, I would assemble a cross-functional response team: Professional Services to manage communication, Engineering/DevOps to investigate logs and API integrations, and Product if a configuration or version issue is suspected. Root cause analysis would focus on identifying whether the failure is on our side (API changes, queuing delays, DB bottlenecks) or on the client’s system (credentials expired, schema mismatch).
+
+### While the technical team works, I would keep the client informed with regular, transparent updates (every few hours if needed). If possible, I’d also propose a short-term workaround, such as manual CSV uploads or partial syncs, to allow their marketing team to resume critical campaigns.
+
+### Once the root cause is confirmed, I would ensure rapid resolution, validate it with the client’s IT team, and run post-resolution monitoring to confirm stability. After closure, I’d schedule a follow-up with the client to review the incident, share a clear RCA, and propose preventive measures — for example, additional sync monitoring dashboards or alerts.
+
+### This approach ensures the client feels prioritized and informed throughout, while also driving a structured, root-cause resolution that restores long-term confidence.”
+
+
+
+
+
+### AI USAGE
+
+“Sure. Beyond the technical implementation, I’ve used GenAI tools extensively in my day-to-day work as a project manager:
+
+- Market & competitor research: Early on, I collected materials from the top 10 competing delivery systems and used GPT-4 to run a deep comparison—strengths, weaknesses, gaps. That analysis directly shaped ChatZAP’s differentiators. For example, we discovered that none supported audio messages, so we prioritized Whisper API integration as a key market advantage.
+
+- Voice-of-customer analysis: During discovery with restaurant owners, I kept notes on their pain points. I built a small repository and used GPT-4 to cluster and summarize feedback (e.g., delays in answering, wrong orders, poor visibility of deliveries). That made decision-making faster and data-driven, instead of anecdotal.
+
+- Decision support & risk analysis: I often asked GPT to generate pros/cons tables, risk checklists, or ‘what-if’ scenarios when we had to choose between roadmap items or integration strategies. This helped me spot blind spots and prepare mitigation plans earlier.
+
+- Documentation & communication: I used AI to draft customer-facing guides, onboarding checklists, and even internal updates. What would take me hours to polish, GPT condensed to 20–30 minutes, which let me focus on stakeholder alignment rather than formatting.
+
+- Status summaries: Instead of writing long reports manually, I would feed in ticket notes or support transcripts and have GPT create concise weekly summaries for stakeholders. This saved significant time while keeping communication clear.
+
+- Personal productivity: On a daily basis, I use AI as a sparring partner—brainstorming features, drafting training material, or even rewriting an email in a clearer tone. It’s like having an assistant that accelerates my work by 30–50%.
+
+So for me, AI wasn’t only about the product—it became part of my operating model as a project manager, making research, reporting, and decision-making much faster and more accurate.”
+
+
+
+## “what-if” que mostra pensamento crítico + uso prático de IA.
+
+
+“One concrete example was when we evaluated whether to adopt a RAG (Retrieval-Augmented Generation) layer for ChatZAP Delivery. The ‘what-if’ question was: Would adding the retrieval step slow down responses so much that customers would notice?
+
+I used GPT to simulate different scenarios:
+
+Without RAG: ~3 seconds average response.
+
+With RAG: retrieval + GPT call. Initially, we worried it could add 2–3 seconds and hurt the user experience.
+
+By running tests and analyzing with GPT, we realized that because RAG sends only the necessary, filtered menu data, the prompt size is much smaller, which offsets most of the retrieval cost. The outcome: 3–4 seconds average response time with RAG — essentially the same user experience — but with a 40–60% reduction in token costs and more accurate answers.
+
+That analysis gave me the confidence to green-light RAG. It turned out to be one of our best design decisions: customers didn’t notice any slowdown, and we made the system both cheaper and more reliable.”
+
+
+
+
+
+
+
 
 
 
